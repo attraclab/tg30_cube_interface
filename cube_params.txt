@@ -1,0 +1,8 @@
+SERIAL2_PROTOCOL = 2
+SERIAL2_BAUD = 921
+PRX1_TYPE = 2 # for MAVLink
+SR2_ADSB = 10   # x is the uart port number
+AVOID_ENABLE = 2 # Proximity
+AVOID_MARGIN = 2 # stay away in meter 
+OA_TYPE = 0 # Just simple avoidance not Bendy-Ruler
+OA_DB_OUTPUT = 3 # send everything

@@ -1,0 +1,12 @@
+[Unit]
+Description=All of ROS running on the background
+After=multi-user.target
+
+[Service]
+Type=idle
+User=raspberry
+ExecStart=/bin/bash /home/raspberry/tg30_cube_interface/autostart_scripts/start_tg30_cube.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

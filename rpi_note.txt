@@ -1,0 +1,5 @@
+cube is connecting to RPi via UART /dev/ttyAMA0 default uart on GPIO 8,10
+
+RPi is running as access point with an IP of 10.42.0.1, 
+- Wifi SSID is Pi5-wifi
+- Wifi Password is raspberry
